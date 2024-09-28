@@ -1,0 +1,133 @@
+/* General container */
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0e0e0;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .subscription-form input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .subscription-form button {
+    padding: 10px 15px;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    cursor: pointer;
+  }
+  
+  .subscription-form button:hover {
+    background-color: #aaa;
+  }
+  
+  /* Main Content Section */
+  .main-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: #397c7c;
+    padding: 40px 0;
+  }
+  
+  .column h2 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .column ul li {
+    margin: 10px 0;
+  }
+  
+  .column ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social Media Icons */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    width: 50px;  /* Box width */
+    height: 50px; /* Box height */
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; /* Square with rounded corners */
+    font-size: 24px; /* Icon size */
+    color: white; /* Icon color */
+  }
+  
+  /* Facebook */
+  .social-icon.fb {
+    background-color: #3b5998;
+  }
+  
+  /* Twitter */
+  .social-icon.twitter {
+    background-color: #1da1f2;
+  }
+  
+  /* Instagram */
+  .social-icon.insta {
+    background-color: #e1306c;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #397c7c;
+    padding: 20px;
+  }
+  
+  .footer p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .footer ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
